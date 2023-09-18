@@ -1,0 +1,13 @@
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/env",
+        "@babel/preset-typescript",
+        "es2015", "stage-2", "react"
+       
+    ],
+    "plugins": [
+        "react-require", "babel-root-slash-import", "transform-class-properties", " @babel/plugin-proposal-class-properties",
+        "@babel/proposal-object-rest-spread"
+    ]
+} 
